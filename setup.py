@@ -1,7 +1,12 @@
 from setuptools import find_packages, setup
+import src.geeS2downloader
 
 setup(
     name='geeS2Downloader',
+    version=src.geeS2downloader.__version__,
+    author="Maurício Cordeiro",
+    author_email="cordmaur@gmail.com",
+    url="https://github.com/cordmaur/GEES2Downloader",
     extras_require=dict(tests=['pytest']),
     packages=find_packages(where="src"),
     package_dir={"": "src"},
