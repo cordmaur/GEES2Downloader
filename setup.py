@@ -15,7 +15,7 @@ setup(
         'rasterio~=1.2.10',
         'earthengine-api~=0.1.290',
         'numpy~=1.21.3',
-        'matplotlib~=3.4.3',
+        'matplotlib>=3.4.3',
         'requests~=2.26.0',
         'geojson~=2.5.0',
         'tqdm~=4.62.3',
