@@ -1,4 +1,5 @@
 import rasterio as rio
+from rasterio.warp import transform_geom
 import ee
 import math
 import numpy as np
@@ -79,7 +80,7 @@ class Tile:
                                    (top_left[0], bottom_right[1])])
 
         if to_crs is not None:
-            polygon = rio.warp.transform_geom(self.band_info['crs'], to_crs, polygon)
+            polygon = transform_geom(self.band_info['crs'], to_crs, polygon)
 
         return polygon
 
