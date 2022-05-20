@@ -6,6 +6,10 @@ In these situations, the GEES2Downloader is able to subdivide the asset in small
 The number of tiles is given automatically by the algorithm and the download occurs in parallel. 
 ![image](https://user-images.githubusercontent.com/19617404/143089632-a4323a8a-28b9-495e-ac7d-a8d5b89293f1.png)
 
+# Documentation
+A Medium story describes in details its utilization:<br>
+https://medium.com/analytics-vidhya/how-to-download-assets-from-google-earth-engine-gee-and-overcome-the-size-limitations-45b7c9ebe389
+
 # Instalation
 The package can be installed directly from the github, using pip, like so:
 `pip install git+https://github.com/cordmaur/GEES2Downloader.git@main`
