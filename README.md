@@ -50,6 +50,7 @@ plt.imshow(downloader.array)
 
 # Story
 A story explaining in more details can be found here:
+https://medium.com/analytics-vidhya/how-to-download-assets-from-google-earth-engine-gee-and-overcome-the-size-limitations-45b7c9ebe389
 
 
 
